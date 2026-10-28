@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Вчіть англійську із задоволенням">
+    <title>GrammarFerret</title>
+</head>
+
+<body>
+    <a href="#main-content">Перейти до основного вмісту</a>
+    <header>
+        <a href="index.html">
+            <img src="images/site_embl.jpg" alt="На головну сторінку" width="34" height="34" aria-hidden="true">
+            <span>GrammarFerret</span>
+        </a>
+        <nav aria-label="Основна навігація">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+
+                <!-- Вкладка "Списки слів (Vocabulary)" -->
+                <li><a href="#vocab-title">Vocabulary</a></li>
+
+                <!-- Вкладка "Практика" -->
+                <li><a href="#word-section-title">Practice</a></li>
+
+                <!-- Вкладка Статистика і прогрес -->
+                <li><a href="#stat-title">Progress</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Перехід на сторінку входу -->
+        <a href="login.html">
+            <img src="images/account.png" alt="Профіль користувача" width="34" height="34" aria-hidden="true">
+            <span>Account</span>
+        </a>
+    </header>
+    <main id="main-content">
+        <section aria-labelledby="main-challenge-title">
+            <h1 id="main-challenge-title">Твій щоденний виклик (your daily challenge)</h1>
+            <article aria-labelledby="phrase-title">
+                <h2 id="phrase-title">“Get the hang of”</h2>
+                <p><strong>набити руку, освоїти</strong></p>
+                <p>To learn how to do something or begin to understand how it works through practice</p>
+                <p><strong>Example:</strong></p>
+                <p><em>It was hard at first, but she soon got the hang of riding a bike.</em></p>
+                <!--Перехід на сторінку з вправою-->
+                <a href="exercise.html" aria-label="виконати вправу до фрази Get the hang of">Виконати вправу</a>
+            </article>
+            <aside aria-labelledby="stat-title">
+                <a href="progress.html">
+                    <h2 id="stat-title">Your Statistic</h2>
+                    <figure>
+                        <svg viewBox="0 0 300 200" role="img" aria-label="Стовпчаста діаграма активності">
+                            <text x="20" y="40">200</text>
+                            <text x="20" y="80">150</text>
+                            <text x="20" y="120">100</text>
+                            <text x="20" y="160">50</text>
+
+                            <text x="60" y="190">Пн</text>
+                            <text x="90" y="190">Вт</text>
+                            <text x="120" y="190">Ср</text>
+                            <text x="150" y="190">Чт</text>
+                            <text x="180" y="190">Пт</text>
+                            <text x="210" y="190">Сб</text>
+                            <text x="240" y="190">Нд</text>
+                        </svg>
+
+                        <figcaption>
+                            Прогрес за тиждень: Пн — 65, Вт — 80, Ср — 45, Чт — 25, Пт — 100, Сб — 65, Нд — 25.
+                        </figcaption>
+                    </figure>
+                </a>
+            </aside>
+        </section>
+        <section aria-labelledby="vocab-title">
+            <h2 id="vocab-title">Списки слів (Vocabulary)</h2>
+            <article aria-labelledby="topic-spoken">
+                <span>30%</span>
+                <h3 id="topic-spoken">Розмовна англійська</h3>
+                <p>6/20</p>
+
+                <progress value="6" max="20">30%</progress>
+
+                <a href="vocabulary-spoken.html"
+                    aria-label="Перейти до вивчення слів з теми &quot;Розмовна англійська&quot;">&rarr;</a>
+            </article>
+            <article aria-labelledby="topic-tech">
+                <span>78%</span>
+                <h3 id="topic-tech">Комп'ютерне обладнання</h3>
+                <p>30/36</p>
+
+                <progress value="30" max="36">78%</progress>
+                <a href="vocabulary-tech.html"
+                    aria-label="Перейти до вивчення слів з теми &quot;Комп'ютерне обладнання&quot;">&rarr;</a>
+            </article>
+        </section>
+        <section aria-labelledby="word-section-title">
+            <h2 id="word-section-title">Таблиця слів для вивчення</h2>
+            <a href="learning-session.html" aria-label="Розпочати вчити слова">Вчити слова</a>
+            <table>
+                <caption>Слова, переклад слів, контекст використання слова, статус вивчення</caption>
+                <thead>
+                    <tr>
+                        <th scope="col"><strong>Слово</strong></th>
+                        <th scope="col"><strong>Переклад</strong></th>
+                        <th scope="col"><strong>Контекст</strong></th>
+                        <th scope="col"><strong>Статус</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>eventually</td>
+                        <td>зрештою</td>
+                        <td>I lost my keys, but I eventually found them.</td>
+                        <td><span>&#9679; не вивчено</span></td>
+                    </tr>
+                    <tr>
+                        <td>previously</td>
+                        <td>раніше</td>
+                        <td>She lives in Kyiv now, but she previously lived in Lviv.</td>
+                        <td><span>&#9679; не вивчено</span></td>
+                    </tr>
+                    <tr>
+                        <td>subtle</td>
+                        <td>тонкий, ледь помітний</td>
+                        <td>There was a subtle smell of coffee in the room.</td>
+                        <td><span>&#9679; не вивчено</span></td>
+                    </tr>
+                    <tr>
+                        <td>dorm room</td>
+                        <td>кімната в гуртожитку</td>
+                        <td>He decorated his dorm room with posters and fairy ...</td>
+                        <td><span>&#9679; не вивчено</span></td>
+                    </tr>
+                    <tr>
+                        <td>consists of</td>
+                        <td>складатись з</td>
+                        <td>The course consists of lectures and practical tasks.</td>
+                        <td><strong>&#9679; вивчено</strong></td>
+                    </tr>
+                    <tr>
+                        <td>curious</td>
+                        <td>допитливий</td>
+                        <td>She was curious about the new book.</td>
+                        <td><strong>&#9679; вивчено</strong></td>
+                    </tr>
+                    <tr>
+                        <td>acknowledge</td>
+                        <td>визнавати</td>
+                        <td>He nodded to acknowledge her greeting.</td>
+                        <td><strong>&#9679; вивчено</strong></td>
+                    </tr>
+                    <tr>
+                        <td>gather</td>
+                        <td>збирати, збиратися</td>
+                        <td>The students gather in the hall.</td>
+                        <td><strong>&#9679; вивчено</strong></td>
+                    </tr>
+                    <tr>
+                        <td>vague</td>
+                        <td>розмитий</td>
+                        <td>His explanation was very vague.</td>
+                        <td><strong>&#9679; вивчено</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+    </main>
+
+    <footer>
+        <address>
+            <ul>
+                <li>
+                    <img src="images/telegram.png" alt="телеграм канал" width="26" height="26" aria-hidden="true">
+                    <a href="https://t.me/wingedsensitive" target="_blank" rel="noopener"
+                        aria-label="Перейти в Telegram акаунт @wingedsensitive">
+                        @wingedsensitive
+                    </a>
+                </li>
+                <li>
+                    <img src="images/phone.png" alt="телефон" width="26" height="26" aria-hidden="true">
+
+                    <a href="tel:+380639392820" aria-label="Зателефонувати за номером +380639392820">
+                        +380 (63) 939-28-20
+                    </a>
+                </li>
+                <li>
+                    <img src="images/gmail.png" alt="пошта gmail" width="26" height="26" aria-hidden="true">
+
+                    <a href="mailto:katiakate555@gmail.com" aria-label="Надіслати електронного листа на katiakate555@gmail.com">
+                        katiakate555@gmail.com
+                    </a>
+                </li>
+            </ul>
+        </address>
+    </footer>
+</body>
+
+</html>
